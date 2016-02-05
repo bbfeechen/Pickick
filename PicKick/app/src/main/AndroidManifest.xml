@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="avator.pickick" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ui.activity.SignInActivity"
+            android:label="@string/title_activity_sign_in">
+        </activity>
+        <activity
+            android:name=".ui.activity.SignUpActivity"
+            android:label="@string/title_activity_sign_up">
+        </activity>
+        <activity
+            android:name=".ui.activity.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".ui.activity.PhotoTakenActivity"
+            android:label="@string/title_activity_photo_taken" >
+        </activity>
+        <activity
+            android:name=".ui.activity.ShowImageByTimeActivity"
+            android:label="@string/title_activity_show_image_by_time" >
+        </activity>
+        <activity
+            android:name=".ui.activity.ShowImageByLocationActivity"
+            android:label="@string/title_activity_show_image_by_location" >
+        </activity>
+        <activity
+            android:name=".ui.activity.SyncActivity"
+            android:label="@string/title_activity_sync" >
+        </activity>
+        <activity
+            android:name=".ui.activity.ManageImageActivity"
+            android:label="@string/title_activity_manage_image" >
+        </activity>
+        <activity
+            android:name=".ui.activity.EditImageActivity"
+            android:label="@string/title_activity_edit_image" >
+        </activity>
+
+    </application>
+
+</manifest>
